@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NuoNote 隐私政策</title>
+    <title>RiveLab 隐私政策</title>
     <style>
         * {
             margin: 0;
@@ -88,22 +88,39 @@
             本应用作为一款本地 Rive 动画调试工具，<strong>不会主动收集、存储或向任何第三方传输您的个人信息</strong>。所有数据处理均在您的设备本地完成，不会上传至远程服务器。
         </p>
         
-        <h2>二、本地数据存储</h2>
-        <p>本应用可能在您的设备本地存储以下类型的数据：</p>
+        <h2>二、iCloud 数据存储</h2>
+        <p>本应用使用 Apple 的 iCloud 服务来存储和同步您的数据：</p>
+        <ul>
+            <li><strong>iCloud 云盘存储</strong>：用于存储您导入的 Rive 文件（.riv）以及项目数据，确保您在不同设备间无缝切换使用</li>
+            <li><strong>iCloud 数据同步</strong>：您的设置偏好、项目配置等数据会通过 iCloud 在您的所有 Apple 设备间同步</li>
+        </ul>
+        <p>iCloud 数据由 Apple 按照其隐私政策进行管理，您可以通过设备的 iCloud 设置或应用内设置管理这些数据。</p>
+        
+        <h2>三、本地数据存储</h2>
+        <p>本应用也可能在您的设备本地存储以下类型的数据：</p>
         <ul>
             <li><strong>Rive 文件缓存</strong>：为提升加载速度，应用可能缓存您打开的 Rive 文件（.riv）</li>
             <li><strong>应用偏好设置</strong>：包括窗口大小、主题设置、调试参数等配置信息</li>
             <li><strong>临时调试数据</strong>：动画调试过程中产生的状态数据，仅用于当前会话</li>
         </ul>
-        <p>上述数据仅存储在您的设备上，您可以随时通过删除应用来清除所有相关数据。</p>
+        <p>上述本地数据仅存储在您的设备上，您可以随时通过删除应用来清除所有相关数据。</p>
         
-        <h2>三、权限说明</h2>
+        <h2>四、网络数据访问</h2>
+        <p>本应用需要访问网络以实现以下功能：</p>
+        <ul>
+            <li><strong>URL 加载</strong>：通过 URL 解析从远程服务器加载 Rive 动画文件</li>
+            <li><strong>网络数据获取</strong>：从指定的网络数据源获取信息用于动画调试和数据展示</li>
+        </ul>
+        <p>当您使用网络功能时，本应用会向您指定的 URL 发送请求以获取数据。该数据仅用于本地处理，不会被上传或分享给任何第三方。</p>
+        
+        <h2>五、权限说明</h2>
         <p>本应用可能请求以下系统权限，用于实现特定功能：</p>
         <ul>
             <li><strong>网络访问权限</strong>：用于从远程 URL 加载 Rive 文件和获取网络数据源进行动画调试</li>
             <li><strong>文件访问权限</strong>：用于打开本地 Rive 文件</li>
+            <li><strong>iCloud 权限</strong>：用于使用 iCloud 云盘存储和数据同步功能</li>
         </ul>
-        <p>所有权限均为实现特定功能所需，不会用于收集个人信息。</p>
+        <p>所有权限均为实现特定功能所需，严格按照最小必要原则使用。</p>
         
         <h2>四、用户权利</h2>
         <p>根据《中华人民共和国个人信息保护法》，您享有以下权利：</p>
@@ -122,7 +139,7 @@
             <li>不收集任何身份识别信息</li>
         </ul>
         
-        <h2>六、第三方服务</h2>
+        <h2>八、第三方服务</h2>
         <p>本应用可能集成以下第三方组件：</p>
         <ul>
             <li><strong>Rive Runtime</strong>：用于渲染和播放 Rive 动画，仅在本地运行</li>
@@ -136,7 +153,7 @@
         <h2>八、隐私政策的更新</h2>
         <p>我们可能会根据法律法规或业务需要更新本隐私政策。更新后的政策将在应用内或官方渠道发布通知，您可以随时查看最新版本。</p>
         
-        <h2>十、技术支持</h2>
+        <h2>十一、技术支持</h2>
         <p>如您在使用本应用过程中遇到任何技术问题，欢迎通过以下方式获取支持：</p>
         <ul>
             <li><strong>GitHub Issues</strong>：您可以在 <a href="https://github.com/qu-bl/privacy/issues" target="_blank">GitHub Issues</a> 提交问题，我们会尽快回复</li>
@@ -155,7 +172,7 @@
         </div>
         
         <div class="last-updated">
-            <p>最后更新时间：2026年5月26日</p>
+            <p>最后更新时间：2026年6月8日</p>
             <p style="margin-top: 8px; font-size: 12px;">© 2026 RiveLab. All rights reserved.</p>
         </div>
     </div>
